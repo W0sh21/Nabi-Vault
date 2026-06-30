@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="NabieVault- Garrafa biodegradável feita com bambu e milho, sem metal, pensada para reduzir plástico descartável.">
+    <meta name="theme-color" content="#2E7D32">
+    <title>NabieVault- Garrafa Biodegradável de Bambu e Milho</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://images.pexels.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <a href="#main" class="skip-link">Ir para o conteúdo principal</a>
+
+    <header class="header" role="banner">
+        <nav class="nav container" aria-label="Navegação principal">
+            <a href="#top" class="brand" aria-label="NabieVault- início">
+               <img src="assets/logo-icon/logo-icon.png" alt="NabieVault Logo" class="brand-logo-img">
+                <span>NabieVault</span>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#materials">Materiais</a></li>
+                <li><a href="#features">Diferenciais</a></li>
+                <li><a href="#process">Ciclo</a></li>
+                <li><a href="#pricing">Preços</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+
+            <button type="button" class="btn btn-primary nav-cta" data-open-modal data-plan="" data-price="79,90">Comprar</button>
+
+            <button class="menu-btn" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-menu">
+                <span class="menu-lines" aria-hidden="true"><span></span><span></span><span></span></span>
+            </button>
+        </nav>
+        <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+            <a href="#materials">Materiais</a>
+            <a href="#features">Diferenciais</a>
+            <a href="#process">Ciclo</a>
+            <a href="#pricing">Preços</a>
+            <a href="#faq">FAQ</a>
+            <button type="button" class="btn btn-primary" data-open-modal data-plan="" data-price="79,90">Comprar</button>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="hero" id="top" aria-labelledby="hero-title">
+            <div class="container hero-content">
+                <span class="hero-brand">NabieVault</span>
+                <h1 id="hero-title">A garrafa biodegradável feita de bambu e milho.</h1>
+                <p>Sem metal. Sem plástico convencional. Uma garrafa leve, bonita e pensada para voltar à natureza em condições adequadas de compostagem.</p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="#pricing">Ver preços</a>
+                    <a class="btn btn-secondary" href="#materials">Conhecer materiais</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="intro-strip" aria-label="Diferenciais rápidos">
+            <div class="container">
+                <strong>0% metal</strong><span>|</span>
+                <strong>Fibra de Bambu</strong><span>|</span>
+                <strong>Biopolímero de milho</strong><span>|</span>
+                <strong>A partir de R$ 79,90</strong>
+            </div>
+        </section>
+
+        <section id="materials" class="section materials" aria-labelledby="materials-title">
+            <div class="container">
+                <div class="reveal">
+                    <span class="section-kicker">Materiais</span>
+                    <h2 class="section-title" id="materials-title">Bambu por fora. Milho na composição. Metal fora da fórmula.</h2>
+                    <p class="section-copy">A NabieVault combina fibras vegetais e biopolímero derivado do milho para criar uma alternativa acessível às garrafas descartáveis e às opções metálicas.</p>
+                </div>
+
+                <div class="material-grid">
+                    <div class="material-visual reveal">
+                        <img src="assets/mulher segurando garrafa.png" alt="Garrafa de bambu NabieVault em uso" width="1200" height="900" loading="lazy" decoding="async">
+                    </div>
+                    <div class="material-list reveal">
+                        <article class="material-item">
+                            <div class="material-icon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22V2"/><path d="M7 7c3 0 5 2 5 5-3 0-5-2-5-5Z"/><path d="M12 15c4 0 7-3 7-7-4 0-7 3-7 7Z"/></svg></div>
+                            <div><h3>Bambu</h3><p>Fibra vegetal de crescimento rápido, usada para reforço, textura natural e menor dependência de materiais sintéticos.</p></div>
+                        </article>
+                        <article class="material-item">
+                            <div class="material-icon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21c4-4 7-8 7-13a7 7 0 0 0-14 0c0 5 3 9 7 13Z"/><path d="M9 9c2.5 0 4 1.5 4 4-2.5 0-4-1.5-4-4Z"/></svg></div>
+                            <div><h3>Milho</h3><p>Base para biopolímero vegetal, substituindo plástico convencional na estrutura principal da garrafa.</p></div>
+                        </article>
+                        <article class="material-item">
+                            <div class="material-icon" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4l16 16"/><path d="M7 3h10l1 5-4 4"/><path d="M10 20H7l-1-5 3-3"/></svg></div>
+                            <div><h3>Sem metal</h3><p>Design pensado para reduzir custo, peso e impacto ambiental, mantendo a garrafa simples de produzir e transportar.</p></div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="section" aria-labelledby="features-title">
+            <div class="container">
+                <div class="center reveal">
+                    <span class="section-kicker">Diferenciais</span>
+                    <h2 class="section-title" id="features-title">Sustentável sem virar produto de luxo.</h2>
+                    <p class="section-copy">A proposta é manter preço baixo, produção simples e impacto positivo claro para apresentações, escolas e vendas locais.</p>
+                </div>
+
+                <div class="features-grid">
+                    <article class="feature reveal">
+                        <i class="fa-solid fa-leaf icone-diferencial"></i> 
+                        <h3>Biodegradável</h3><p>Composta por materiais vegetais que podem se degradar em ambientes adequados, diferente do plástico comum.</p></article>
+                    <article class="feature reveal">
+                        <i class="fa-solid fa-feather-pointed icone-diferencial"></i>
+                        <h3>Leve e segura</h3>
+                        <p>Sem metal, com corpo leve e confortável para uso diário em escola, academia, trabalho ou passeio.</p></article>
+                    <article class="feature reveal">
+                        <i class="fa-solid fa-tags icone-diferencial"></i>
+                        <h3>Preço acessível</h3><p>Três posicionamentos de venda para alcançar públicos diferentes sem perder a mensagem ecológica.</p></article>
+                </div>
+            </div>
+        </section>
+
+        <section id="process" class="section process" aria-labelledby="process-title">
+            <div class="container">
+                <div class="reveal">
+                    <span class="section-kicker">Ciclo do produto</span>
+                    <h2 class="section-title" id="process-title">Da planta ao uso diário.</h2>
+                    <p class="section-copy">Uma cadeia simples: matéria-prima vegetal, produção sem metal e descarte responsável.</p>
+                </div>
+                <div class="process-grid">
+                    <article class="process-step reveal"><span>01</span><h3>Origem vegetal</h3><p>Bambu e milho entram como base renovável para reduzir uso de plástico convencional.</p></article>
+                    <article class="process-step reveal"><span>02</span><h3>Produção simples</h3><p>Sem partes metálicas, a montagem fica mais leve, barata e fácil de escalar.</p></article>
+                    <article class="process-step reveal"><span>03</span><h3>Descarte consciente</h3><p>Ao fim da vida útil, a proposta é encaminhar para compostagem ou coleta ambiental parceira.</p></article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" aria-labelledby="product-title">
+            
+            <div class="container product-showcase">
+                <div class="product-photo reveal">
+                    <img id="main-product-img" src="assets/garrafa-bambu.png" alt="Garrafa sustentável NabieVaultcom acabamento de material orgânico" width="1200" height="1000" loading="lazy" decoding="async">
+                </div>
+                <div class="reveal">
+                    <span class="section-kicker">Produto</span>
+                    <h2 class="section-title" id="product-title">NabieVault 600ml</h2>
+                    
+                    <div class="product-colors" role="radiogroup" aria-label="Selecione uma cor">
+                        <button class="color-option active" style="background-color: #D2B48C;" data-color-name="Bambu" aria-checked="true" role="radio"></button>
+                         <button class="color-option" style="background-color: #1C1C1C;" data-color-name="Carvão" aria-checked="false" role="radio"></button>
+                        <button class="color-option" style="background-color: #B88787;" data-color-name="Dusty Rose" aria-checked="false" role="radio"></button>
+                        <button class="color-option" style="background-color: #556F7C;" data-color-name="Slate-Blue" aria-checked="false" role="radio"></button>
+                         <button class="color-option" style="background-color: #D7E7F2;" data-color-name="Ice Blue" aria-checked="false" role="radio"></button>
+                        <button class="color-option" style="background-color: #F1ECE3;" data-color-name="Off White" aria-checked="false" role="radio"></button>
+                       </div>
+
+                       
+
+                    <p class="section-copy">Uma garrafa para quem quer reduzir descarte sem pagar caro. Corpo vegetal, tampa sem metal e acabamento com toque natural.</p>
+                    <ul class="product-list">
+                        <li><span class="check" aria-hidden="true">✓</span><span>600ml de capacidade para rotina diária.</span></li>
+                        <li><span class="check" aria-hidden="true">✓</span><span>Composição de bambu e biopolímero de milho.</span></li>
+                        <li><span class="check" aria-hidden="true">✓</span><span>Sem metal e sem plástico convencional no conceito do produto.</span></li>
+                        <li><span class="check" aria-hidden="true">✓</span><span>Visual minimalista com paleta natural em verde e branco.</span></li>
+                    </ul>
+                    <a href="#pricing" class="btn btn-outline" style="margin-top: 1.4rem;">Escolher versão</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="pricing" class="section pricing" aria-labelledby="pricing-title">
+            <div class="container">
+                <div class="center reveal">
+                    <span class="section-kicker">Preços</span>
+                    <h2 class="section-title" id="pricing-title">Três faixas para vender melhor.</h2>
+                    <p class="section-copy">Os valores abaixo seguem o posicionamento decidido para o novo produto.</p>
+                </div>
+
+                <div class="pricing-grid">
+                    <article class="price-card featured reveal">
+                        <div class="price-top"><div><h3>Produto Oficial</h3><p>A garrafa biodegradável que protege seus objetos e reduz o uso de plástico.</p></div></div>
+                        <strong class="price-tag">R$ 79,90</strong>
+                        <ul class="price-list"><li>NabieVault600ml</li><li>Tampa vegetal antivazamento</li><li>Textura com fibra de bambu</li></ul>
+                        <button type="button" class="btn btn-primary" data-open-modal data-plan="" data-price="79,90">Comprar Agora</button>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="section" aria-labelledby="faq-title">
+            <div class="container">
+                <div class="center reveal"><span class="section-kicker">FAQ</span><h2 class="section-title" id="faq-title">Perguntas importantes.</h2></div>
+                <div class="faq-list">
+                    <div class="faq-item reveal"><button class="faq-question" type="button" aria-expanded="false">A garrafa é 100% biodegradável?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button><div class="faq-answer"><p>O conceito usa materiais biodegradáveis de origem vegetal. Na comunicação final, é importante informar que a degradação depende de condições adequadas de compostagem e descarte.</p></div></div>
+                    <div class="faq-item reveal"><button class="faq-question" type="button" aria-expanded="false">Por que não usar metal?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button><div class="faq-answer"><p>Sem metal, o produto fica mais leve, com menor custo de produção e mais alinhado à proposta de materiais vegetais como bambu e milho.</p></div></div>
+                    <div class="faq-item reveal"><button class="faq-question" type="button" aria-expanded="false">Ela substitui garrafa térmica?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button><div class="faq-answer"><p>Não. Como não usa metal, o foco não é isolamento térmico prolongado. O foco é sustentabilidade, leveza e redução de descartáveis.</p></div></div>
+                    <div class="faq-item reveal"><button class="faq-question" type="button" aria-expanded="false">Posso personalizar para escola ou empresa?<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></svg></button><div class="faq-answer"><p>Sim. O modelo  e o premium podem receber personalização de logo, campanha ambiental ou nome do projeto.</p></div></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section cta" aria-labelledby="cta-title">
+            <div class="container center reveal">
+                <span class="section-kicker">Pronto para apresentar</span>
+                <h2 class="section-title" id="cta-title">Uma garrafa ecológica com preço realista.</h2>
+                <p class="section-copy">Apresente o produto como uma solução simples: bambu, milho, zero metal e valores entre R$ 69,90 e R$ 109,90.</p>
+                <button type="button" class="btn btn-secondary" style="margin-top: 2rem;" data-open-modal data-plan="" data-price="79,90">Simular compra</button>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <a href="#top" class="brand">
+                        <img src="assets/logo-icon/logo-icon.png" alt="NabieVault Logo" class="brand-logo-img">
+                        <span>NabieVault</span>
+                    </a>
+                    <p>Garrafa biodegradável feita com bambu e milho para reduzir descartáveis sem aumentar o custo para o consumidor.</p>
+                </div>
+                <div><h3>Produto</h3><a href="#materials">Materiais</a><a href="#features">Diferenciais</a><a href="#pricing">Preços</a></div>
+                <div><h3>Projeto</h3><a href="#process">Ciclo</a><a href="#faq">FAQ</a><a href="#pricing">Comprar</a></div>
+                <div><h3>Contato</h3><a></a><a href="https://www.instagram.com/nabievault?igsh=MXNvMml2Y2xob3ZvNA%3D%3D">Instagram</a><a href="#"></a></div>
+            </div>
+            <div class="footer-bottom"><span>© 2026 NabieVault. Projeto acadêmico de produto sustentável.</span><span>Bambu + milho + zero metal.</span></div>
+        </div>
+    </footer>
+
+    <div class="modal-overlay" id="checkout-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" aria-hidden="true">
+        <div class="modal">
+            <div class="modal-head">
+                <div><h2 id="modal-title">Comprar NabieVault</h2><p class="modal-sub">Simulação de pedido para apresentação.</p></div>
+                <button class="modal-close" type="button" aria-label="Fechar modal" data-close-modal><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+            </div>
+            <div class="order-summary" aria-live="polite"><div><strong id="summary-plan"></strong><span>Garrafa biodegradável de bambu e milho</span></div><div class="order-price" id="summary-price">R$ 79,90</div></div>
+            <form id="checkout-form" novalidate>
+                <div class="form-grid">
+                    <div><label for="name">Nome completo</label><input id="name" name="name" type="text" placeholder="Seu nome" autocomplete="name" required></div>
+                    <div><label for="email">E-mail</label><input id="email" name="email" type="email" placeholder="voce@email.com" autocomplete="email" required></div>
+                    <div class="form-row">
+                        <div><label for="quantity">Quantidade</label><select id="quantity" name="quantity"><option value="1">1 unidade</option><option value="5">5 unidades</option><option value="20">20 unidades</option><option value="50">50 unidades</option></select></div>
+                        <div><label for="city">Cidade</label><input id="city" name="city" type="text" placeholder="Sua cidade" autocomplete="address-level2" required></div>
+                    </div>
+                    <button class="btn btn-primary" type="submit" style="width: 100%; margin-top: .4rem;">Confirmar interesse</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite">Interesse registrado com sucesso.</div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
